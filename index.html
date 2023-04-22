@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/require.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="preload" href="./assets/images/hero-banner.png">
+
+</head>
+<body>
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.PNG" width="30" height="30" alt="home"> <h1>Portfolio</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="label-lg navbar-link has-after active">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about.html" class="label-lg navbar-link has-after">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="Gallery.html" class="label-lg navbar-link has-after">Gallery</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="label-lg navbar-link has-after">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="subtitle">👋Hi, My name is Xyruz</p>
+
+            <h1 class="headline-lg">I'm a Developer in Training</h1>
+
+            <p class="hero-text body-md">
+              Currently Studying in MORMS
+            </p>
+
+            <a href="#about" class="btn btn-primary">Let's Start</a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="680" height="645"
+              alt="Mark Xyruz Magnampo" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+<hr/>
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section id="about" class="section about" aria-label="about me">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="580" height="554" loading="lazy"
+              alt="Mark Xyruz Magnampo" class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2  class="title-lg">I'm a Student at MORMS Currently Studying Computer Programming and Oracle Database.</h2>
+
+            <p class="body-md section-text">
+              I'm a Student at MORMS Currently Studying Computer Programming and Oracle Database. And Currently nearing Graduation. 
+              Will continue studying computer programming in college in BU.
+            </p>
+
+              <a href="about.html" class="btn btn-secondary">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+<hr/>
+
+      <section class="section skill" aria-labelledby="skill-label">
+        <div class="container">
+
+          <div class="skill-content">
+
+            <h2 class="section-title headline-md" id="skill-label">My Skills</h2>
+
+            <ul class="skill-list">
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(177, 39%, 72%)">
+
+                  <div class="card-media">
+                    <ion-icon name="logo-html5"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">HTML</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(41, 99%, 64%)">
+
+                  <div class="card-media">
+                    <ion-icon name="logo-css3"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">CSS</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(19, 97%, 85%)">
+
+                  <div class="card-media">
+                    <ion-icon name="logo-javascript"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">Javascript</h2>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <figure class="skill-banner">
+            <img src="./assets/images/skill-banner.png" width="581" height="657" loading="lazy"
+              alt="Mark Xyruz Magnampo" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100081397000365" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/MarkXyruz1" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/maxie.xie/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/mark-xyruz-magnampo-7a39b51b1/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

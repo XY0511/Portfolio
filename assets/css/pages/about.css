@@ -1,0 +1,26 @@
+
+
+@import url('../components/card.css');
+@import url('../components/btn.css');
+
+
+.about { padding-block-start: calc(var(--section-padding) + 60px); }
+
+.about-list {
+  display: grid;
+  gap: 25px;
+}
+
+.card-title { margin-block-end: 10px; }
+
+.card ion-icon { font-size: 3.2rem; }
+
+.card .body-sm { color: var(--jet); }
+
+
+
+@media (min-width: 768px) {
+
+  .about-list { grid-template-columns: 1fr 1fr; }
+
+}
